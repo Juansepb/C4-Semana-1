@@ -48,11 +48,11 @@ class RegisterActivity : AppCompatActivity() {
 
     fun onRegisterR(view: View) {
         if (formValidate()){
-            Toast.makeText(this,"Validacion correcta", Toast.LENGTH_LONG).show()
+            Toast.makeText(this,getResources().getString(R.string.text_validationTrue) , Toast.LENGTH_LONG).show()
             val endValidationRegistro = Intent(this,MainActivity::class.java)
             startActivity(endValidationRegistro)
         }else {
-            Toast.makeText(this,"Error en la validacion", Toast.LENGTH_LONG).show()
+            Toast.makeText(this,getResources().getString(R.string.text_validationFalse), Toast.LENGTH_LONG).show()
         }
     }
     fun formValidate() : Boolean {
@@ -64,67 +64,73 @@ class RegisterActivity : AppCompatActivity() {
 
         if (TextUtils.isEmpty(NameInput))
         {
-            edt_Name!!.error= "Required"
+            edt_Name!!.error= getResources().getString(R.string.text_validationRequire)
             onVlidate = false
         }else if (!NAME_PATTERN.matcher(NameInput.replace(" ","")).matches())
         {
-            edt_Name!!.error= "Name error"
+            edt_Name!!.error= getResources().getString(R.string.text_errorName)
             onVlidate = false
         }else {
             edt_Name!!.error= null
         }
 
+
         if (TextUtils.isEmpty(LastNameInput))
         {
-            edt_LastName!!.error= "Required"
+            edt_LastName!!.error= getResources().getString(R.string.text_validationRequire)
             onVlidate = false
         }else if (!NAME_PATTERN.matcher(LastNameInput.replace(" ","")).matches())
         {
-            edt_LastName!!.error= "Required"
+            edt_LastName!!.error= getResources().getString(R.string.text_lastNameError)
             onVlidate = false
         }else {
             edt_LastName!!.error= null
         }
 
+
         if (TextUtils.isEmpty(edt_Nit!!.text.toString()))
         {
-            edt_Nit!!.error= "Required"
+            edt_Nit!!.error= getResources().getString(R.string.text_validationRequire)
             onVlidate = false
         }else {
             edt_Nit!!.error= null
         }
 
+
         if (TextUtils.isEmpty(EmailInput))
         {
-            edt_Email!!.error= "Invalid Email"
+            edt_Email!!.error= getResources().getString(R.string.text_validationRequire)
             onVlidate = false
         }else if (!EMAIL_PATTERN.matcher(EmailInput).matches())
         {
-            edt_Email!!.error= "Required"
+            edt_Email!!.error= getResources().getString(R.string.text_emailError)
             onVlidate = false
         }else {
             edt_Email!!.error= null
         }
 
+
         if (TextUtils.isEmpty(edt_Phone!!.text.toString()))
         {
-            edt_Phone!!.error= "Required"
+            edt_Phone!!.error= getResources().getString(R.string.text_validationRequire)
             onVlidate = false
         }else {
             edt_Phone!!.error= null
         }
 
+
         if (TextUtils.isEmpty(PasswordRInput))
         {
-            edt_PasswordR!!.error= "Required"
+            edt_PasswordR!!.error= getResources().getString(R.string.text_validationRequire)
             onVlidate = false
         }else if (!PASSWORD_PATTERN.matcher(PasswordRInput).matches())
         {
-            edt_PasswordR!!.error= "Invalid password"
+            edt_PasswordR!!.error= getResources().getString(R.string.text_passwordError)
             onVlidate = false
         }else {
             edt_PasswordR!!.error= null
         }
+
 
         if (! chk_Policies!!.isChecked){
             onVlidate = false

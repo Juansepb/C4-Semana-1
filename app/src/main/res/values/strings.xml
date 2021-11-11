@@ -28,4 +28,11 @@
     <string name="text_Email">Email address</string>
     <string name="text_Phone">Phone</string>
     <string name="text_Policies">Privacy policies</string>
+    <string name="text_validationTrue">"validation ok "</string>
+    <string name="text_validationFalse">"validation error "</string>
+    <string name="text_validationRequire">Require</string>
+    <string name="text_errorName">Name error</string>
+    <string name="text_lastNameError">Invalid Last name </string>
+    <string name="text_emailError">invalid email</string>
+    <string name="text_passwordError">Invalid password</string>
 </resources>
