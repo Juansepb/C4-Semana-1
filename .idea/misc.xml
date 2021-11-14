@@ -4,7 +4,15 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Android Proyectos/C4-Semana-1/app/src/main/res/layout-land/activity_main.xml" value="0.176" />
-        <entry key="..\:/Android Proyectos/C4-Semana-1/app/src/main/res/layout-sw600dp/activity_main.xml" value="0.1" />
+        <entry key="..\:/Android Proyectos/C4-Semana-1/app/src/main/res/layout-land/activity_register.xml" value="0.2" />
+        <entry key="..\:/Android Proyectos/C4-Semana-1/app/src/main/res/layout-land/activity_welcome.xml" value="0.43963963963963965" />
+        <entry key="..\:/Android Proyectos/C4-Semana-1/app/src/main/res/layout-sw600dp-land/activity_main.xml" value="0.1" />
+        <entry key="..\:/Android Proyectos/C4-Semana-1/app/src/main/res/layout-sw600dp-land/activity_register.xml" value="0.1" />
+        <entry key="..\:/Android Proyectos/C4-Semana-1/app/src/main/res/layout-sw600dp-land/activity_welcome.xml" value="0.136" />
+        <entry key="..\:/Android Proyectos/C4-Semana-1/app/src/main/res/layout-sw600dp/activity_main.xml" value="0.12" />
+        <entry key="..\:/Android Proyectos/C4-Semana-1/app/src/main/res/layout-sw600dp/activity_register.xml" value="0.104296875" />
+        <entry key="..\:/Android Proyectos/C4-Semana-1/app/src/main/res/layout-sw600dp/activity_welcome.xml" value="0.176" />
+        <entry key="..\:/Android Proyectos/C4-Semana-1/app/src/main/res/layout-sw720dp-land/activity_main.xml" value="0.1" />
         <entry key="..\:/Android Proyectos/C4-Semana-1/app/src/main/res/layout-sw720dp/activity_main.xml" value="0.152" />
         <entry key="..\:/Android Proyectos/C4-Semana-1/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/Android Proyectos/C4-Semana-1/app/src/main/res/layout/activity_register.xml" value="0.13020833333333334" />
